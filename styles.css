@@ -1,0 +1,241 @@
+    body {
+        background-color: rgb(223 251 252);
+    }
+    .bar {
+        border: 2px solid brown;
+        height: 100px;
+        margin: -10px 0px;
+        color: rgb(46, 6, 6);
+        background-color: rgb(175, 174, 174);
+    }
+
+    .nav {
+        float: right;
+        width: 76%;
+        margin: 4px 155px
+    }
+
+    .nav li {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 30px;
+        display: inline-block;
+        margin: 13px;
+        padding: auto;
+    }
+
+    .nav li a {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+    }
+
+    .nav li a:hover {
+        text-decoration: none;
+
+        border: none;
+        color: rgb(238, 66, 66);
+        cursor: pointer;
+    }
+
+
+    .logo {
+        display: inline-block;
+        position: absolute;
+        left: 57px;
+        top: 4px;
+    }
+
+    .logo img {
+        width: 70px;
+
+    }
+
+    .logo div {
+        line-height: 7px;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .cart {
+        display: inline-block;
+        position: absolute;
+        right: 90px;
+        top: -25px;
+    }
+
+    .cart img {
+        width: 100px;
+    }
+
+    .cart div {
+        line-height: 0px;
+        font-size: 45px;
+        text-align: center;
+    }
+
+    #login {
+        display: block;
+        margin-top: -346px;
+        border: 3px solid #b6a7a7;
+        float: left;
+        width: 284px;
+        height: 150px;
+        padding: 2px;
+    }
+
+    .image {
+        display: block;
+        float: right;
+        margin-right: 1px;
+    }
+
+    #imageb {
+        border: 2px solid rgb(24, 15, 15);
+        margin: 10px 1px;
+    }
+
+    #btn {
+        font-size: 20px;
+        text-decoration: None;
+        border: 1px solid blue;
+        border-radius: 14px;
+        width: 20px;
+        color: rgb(8, 10, 10);
+        background-color: rgb(224, 141, 129);
+        padding: 4px;
+        margin-bottom: 4px;
+    }
+
+    #btn:hover {
+        background-color: rgb(190, 75, 47);
+    }
+
+    #samsung {
+        margin-top: 30px;
+        color: rgb(37, 163, 212);
+        margin-bottom: -16px;
+    }
+
+    .nav li button {
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp1NXEWQL-zek36EVZQUkqToCIMq0IBCCUvg&usqp=CAU);
+        background-size: 29px;
+        background-repeat: no-repeat;
+        width: 24px;
+        background-position: center;
+        height: 23px;
+        margin-top: 17px;
+        margin-left: 0px;
+        position: absolute;
+    }
+
+    .nav li button:hover {
+        cursor: pointer;
+
+    }
+    
+
+    #sales1 {
+        background-color: white;
+        display: block;
+        width: 62%;
+        height: 500px;
+        margin-left: 471px;
+        margin-top: -453px;
+        position: absolute;
+        line-height: 0px;
+        padding-left: 20px;
+    }
+    #sales2 {
+        display: block;
+        width: 50%;
+        height: 500px;
+        margin-left: 795px;
+        margin-top: -410px;
+        position: absolute;
+        line-height: 0px;
+        padding: 4px;
+    }
+    #offstatus{
+        margin-top: 42px;
+    }
+    #adds {
+        display: block;
+        border: 2px solid black;
+        width: 623px;
+        margin-top: 58px;
+        line-height: 0px;
+        padding: 3px;
+    }
+
+    #donate {
+        margin-top: -422px;
+        margin-left: 650px;
+    }
+
+    #donate button {
+        color: white;
+        background-color: #f00e0e;
+        border: 1px solid brown;
+        border-radius: 13px;
+        width: 250px;
+        height: 39px;
+        font-size: 25px;
+        margin-left: 20px;
+        margin-top: 4px;
+    }
+
+    #donate button:hover {
+        background-color: brown;
+        cursor: pointer;
+    }
+    #about {
+        color: white;
+        background-color: rgb(0, 0, 0);
+        text-align: center;
+        margin-top: 2px;
+        padding: 1px;
+    }
+    #about h1,p{
+        font-family: fantasy;
+        font-size: xx-large;
+        padding-inline: 1px;
+        margin: 3px;
+    }
+    #about button{
+        border: 2px solid rgb(211, 52, 12);
+        border-radius: 14px;
+        width: 150px;
+        height: 40px;
+        margin: 3px;
+        padding: 2px;
+    }
+    #about button:hover{
+        cursor: pointer;
+    }
+    #instagram button{
+        background-image: url(https://png.pngitem.com/pimgs/s/595-5957085_instagram-logo-and-name-hd-png-download.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    #linkedin button{
+        background-image: url(https://logo-all.ru/uploads/posts/2016-04/0_linkedin_logo.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+    #email button{
+        background-image: url(https://1000logos.net/wp-content/uploads/2018/04/Gmail-logo-new.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+        
+    #text h2,p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: medium;
+    }
+    #text{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: left;
+    }
